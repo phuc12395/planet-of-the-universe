@@ -1,0 +1,9 @@
+*{
+    margin: 20px;
+}
+.current{
+    background-color: darkgrey;
+}
+.nav-top{
+    font-size: 1.25rem;
+}

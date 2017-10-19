@@ -1,10 +1,10 @@
 ---
 layout: news
 ---
-<h1>News</h1>
+<h1>Latest News</h1>
 
 <ul>
-   {% for news in site.categories.news limit:10 %}
+   {% for news in site.categories.recent-news limit:3 %}
     <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
     <p>{{news.meta}}</p>
     {% endfor %}

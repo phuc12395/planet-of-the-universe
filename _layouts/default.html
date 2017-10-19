@@ -1,15 +1,24 @@
 <html>
     <head>
+        <link rel="stylesheet" href="{{base}}/css/default.css">
         <meta charset="utf-8">
         <title>Planets of the universe</title>
     </head>
+    
+    <header>
+        <h1>This is the header</h1>
+        {% include nav.html navclass='nav-top'%}</header>
     <body>
-        <nav>
-            <ul>
-                <li> <a href="{{site.baseurl}}/index.html">Home</a></li>
-                <li> <a href="{{site.baseurl}}/news.html">News</a></li>
-            </ul>
-        </nav>
-        {{content}}
+        <!-- <ol>
+            {{% for data in site.categories.mock-data%}}
+            <li>
+            {{data.content}}
+            </li>    
+            {{% endfor% }}  
+        </ol>   -->
+    {{content}}      
     </body>
+    <footer>
+        <h1>This is the footer</h1>
+        {% include nav.html navclass='nav-bottom'%}</footer>
 </html>
