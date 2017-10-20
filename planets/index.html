@@ -1,0 +1,17 @@
+---
+layout: default
+mastheadClass: master-header-planets
+---
+<h1>Planets</h1>
+<p>A planet is an astronomical object orbiting a start or stellar remnant that...(Read more at <a href="https://en.wikipedia.org/wiki/Planet">https://en.wikipedia.org/wiki/Planet</a>)</p>
+<h2>Types of Planet</h2>
+<nav>
+    <ol>
+        <li><a href="">Dwarf</a></li>
+        {% include planet-list.html type='dwarf' %}
+        <li><a href="">Terrestrial</a></li>
+        {% include planet-list.html type='terrestrial' %}
+        <li><a href="">Gas Giant</a></li>
+        {% include planet-list.html type='gas-giant' %}
+    </ol>
+</nav>

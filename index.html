@@ -5,3 +5,11 @@ layout: default
 Planet of the universe
 </h1>
 <p>Lots of planets in the universe</p>
+{% for data in site.data.mock-data%}
+<ol>
+    <li>
+    <h2>{{data.title}}</h2>
+    {{data.content | markdownify}}
+    </li>
+</ol>
+{% endfor %}

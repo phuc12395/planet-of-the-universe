@@ -1,0 +1,13 @@
+.master-header{
+    background: url("../img/nebula.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* .master-header a{
+    color: blue;
+} */
+.master-header-planets{
+    background: url("../img/nebula-2.jpg"); 
+}

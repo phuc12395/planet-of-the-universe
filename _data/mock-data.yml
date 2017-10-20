@@ -1,6 +1,9 @@
 - title: First collection of data
-  content: 'Put the **content** of 1st data collection here'
+  content: 'Put the *content* of 1st data collection here'
+  visible: public
 - title: Second collection of data
   content: 'Put the **content** of 2nd data collection here'
+  visible: public
 - title: Third collection of data
-  content: 'Put the **content** of 3rd data collection here'
+  content: 'Put the *content* of 3rd data collection here'
+  visible: public
