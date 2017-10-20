@@ -1,0 +1,4 @@
+<url>
+      <loc>https://phuc12395.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+      <priority>0.5</priority>
+   </url>
